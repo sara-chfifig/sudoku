@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Design_sans_titre__1_-removebg-preview.png" type="image/x-icon">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+    <section id="menu">
+        <div id="menu">
+            <div class="menu-container">
+              <h1>SUDOKU</h1>
+              <div class="difficulty-buttons">
+                
+                <button class="dif">&nbsp;&nbsp;Easy&nbsp;&nbsp;</button>
+                <button class="dif">Medium</button>
+                <button class="dif">&nbsp;&nbsp;Hard&nbsp;&nbsp;</button>
+                
+              </div>
+            </div>
+          </div>
+          
+    </section>
+    <main>
+        <div class="head-line">
+            <div>
+                <span class="progress"><i id="progress-value"></i></span>
+            </div>
+            <div>
+                <span id="mistakes"></span>
+            </div>
+            <div>
+                <button id="help"></button>
+            </div>
+        </div>
+        <div class="board">
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <i></i>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <i></i>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+            <div class="row">
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <i></i>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+            </div>
+        </div>
+        <div class="tiles-board">
+            <span class="click tile-board" data-num="1">1</span>
+            <span class="click tile-board" data-num="2">2</span>
+            <span class="click tile-board" data-num="3">3</span>
+            <span class="click tile-board" data-num="4">4</span>
+            <span class="click tile-board" data-num="5">5</span>
+            <span class="click tile-board" data-num="6">6</span>
+            <span class="click tile-board" data-num="7">7</span>
+            <span class="click tile-board" data-num="8">8</span>
+            <span class="click tile-board" data-num="9">9</span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
